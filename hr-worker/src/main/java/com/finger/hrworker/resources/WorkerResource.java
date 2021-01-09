@@ -17,7 +17,7 @@ import com.finger.hrworker.repositories.WorkerRepository;
 public class WorkerResource {
 	
 	@Autowired
-	WorkerRepository workerRepository;
+	private WorkerRepository workerRepository;
 	
 	@GetMapping()
 	public ResponseEntity<List<Worker>> findAll(){
