@@ -23,7 +23,7 @@ public class UserService {
 			throw new IllegalArgumentException("Email not found");
 		}
 		
-		logger.info("email found" + user.getEmail());
+		logger.info("email found: " + user.getEmail());
 		
 		return user;
 		
